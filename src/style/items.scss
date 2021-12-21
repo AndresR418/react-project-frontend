@@ -1,0 +1,15 @@
+.item-wrapper {
+    // display: flex;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+
+    .title {
+        font-size: 25px;
+    }
+
+    .description {
+        color: blue;
+        font-size: 20px;
+    }
+}

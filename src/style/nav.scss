@@ -1,0 +1,18 @@
+.nav-wrapper {
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+
+    .nav-link {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 30px;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            color: blue;
+
+        }
+    }
+}
