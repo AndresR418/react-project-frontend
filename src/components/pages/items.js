@@ -33,9 +33,7 @@ export default class Items extends Component {
             return (
             <div className='item-wrapper'>
                 <h3 className="title">{items.name}</h3>
-                <p className="description">
-                    ${items.price.toFixed(2)}
-                </p>
+                <p className="description">${items.price.toFixed(2)}</p>
             </div>)
         })
 
