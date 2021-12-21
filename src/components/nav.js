@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 
 export default function Nav() {
+    //pushin to heroku
     return (
         <div className='nav-wrapper'>
             <NavLink exact to='/' className="nav-link">Home</NavLink>
