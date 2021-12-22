@@ -14,5 +14,10 @@
             color: blue;
 
         }
+
+        &:focus {
+            text-decoration: underline;
+            color: blue
+        }
     }
 }
